@@ -1,0 +1,142 @@
+#container {
+    position: relative;
+    min-height: 90vh;
+}
+
+main {
+    background-color: rgba(255,255,255,0.60);
+    width: 75%;
+    margin: 50px auto;
+    border-radius: 25px;
+    padding: 15px;
+    font-size: 2em;
+    padding-bottom: 2rem;
+
+}
+
+#banner {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+h1 {
+    color: #E78B4E;
+    font-size: 3em;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+#loginForm {
+    text-align: center;
+}
+
+#classSelection {
+    height: 48px;
+}
+
+input {
+    font-size: .5em;
+    width: 40%;;
+}
+
+button {
+    font-size: .2em
+}
+
+footer {
+  color: #E78B4E;
+}
+
+hr {
+    background-color: #E78B4E;
+}
+
+.image {
+   border-radius: 20px;  
+}
+
+#favorites {
+
+  display: inline-block;
+  text-align: left;
+  justify-content: flex-start;
+  padding: 15px;
+  border-radius: 25px;
+  margin:0 auto;
+}
+
+#listLimiter {
+     text-align: left;
+      align-content: flex-start; 
+}
+
+#resultsContainer{
+  background-color: rgba(250,250,250,0.50);
+  padding: 15px;
+  border-radius: 25px;
+  margin:0 auto;
+}
+
+.link, .keywordLink {
+  background-color: rgba(250,250,250,0.75);
+  color: blue;
+  font-size: .5em;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+#favContainer {
+  background-color: rgba(0,0,0,0.75);
+  width: 75%;
+  margin: 0 auto;
+  border-radius: 25px;
+}
+
+#favBanner {
+    font-size: 1.25em;
+    color: blue;
+}
+
+#back {
+    font-size: 1.25em;
+}
+
+#productList {
+    border-collapse: separate; 
+    border-spacing: 15px 10px; 
+    margin-left: 20px;
+} 
+
+#imageCell {
+    display: flex;
+}
+
+#productDetails {
+    font-size: .5em;
+}
+
+#title {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#reviewButton {
+    height: 50px;
+}
+
+#itemReview {
+    font-size: .8em;
+}
+
+#profileInfo {
+    font-size: .5em;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: black;
+}
